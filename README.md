@@ -1,1 +1,1 @@
-# Simple-To-Do-List-Starter-Kit
+NOTE: The db is empty
