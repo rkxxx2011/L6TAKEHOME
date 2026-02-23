@@ -60,7 +60,7 @@ def register():
             db.commit()
         except sqlite3.IntegrityError:
             return render_template("register.html", message="account already exists")
-        return render_template("register.html", message="Account created successfully")
+        return render_template("index.html", username=username)
     return render_template("register.html")
 
 @app.route("/add-task", methods=["GET", "POST"])
